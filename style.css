@@ -17,8 +17,12 @@
 
 .info-container {
     display: flex;
-
-
+    justify-content: space-evenly;
+    width: 100vw;
+    border: 1px solid black;
+    width: 75%;
+    padding: 25px;
+    flex-wrap: wrap;
 }
 
 
@@ -26,5 +30,19 @@
     height: 350px;
     width: 500px;
     border-radius: 5%;
+    
+}
+
+.description-container {
+    text-align: center;
+    width: auto;
+    padding: 25px;
+    border: 1px solid black;
+}
+
+
+.description-container > button{
+    font-size: 1.3rem;
+
     
 }
