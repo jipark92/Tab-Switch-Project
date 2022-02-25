@@ -9,6 +9,7 @@
 .container {
     height: 50vh;
     display : flex;
+
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -27,8 +28,8 @@
 
 
 .info-container > div > img {
-    height: 350px;
     width: 500px;
+    height: 350px;
     border-radius: 5%;
     
 }
