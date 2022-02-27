@@ -36,14 +36,18 @@
 
 .description-container {
     text-align: center;
-    width: auto;
+    width: 75%;
     padding: 25px;
-    border: 1px solid black;
+   border: 1px solid black;
+   display: flex;
+    flex-direction: column;
 }
 
 
-.description-container > button{
-    font-size: 1.3rem;
 
+.description-container > div > button{
+    font-size: 1.3rem;
+    width: 250px;
+    
     
 }

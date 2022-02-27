@@ -1,20 +1,20 @@
-const btns = document.querySelectorAll('button');
-const documents = document.querySelector('.info');
+const historyBtns = document.querySelector('.history-btn');
+const visionBtns = document.querySelector('.vision-btn');
+const goalsBtns = document.querySelector('.goals-btn');
 
-console.log(btns);
+const infoBoard = document.querySelector('.info');
 
-let numA = 0;
+historyBtns.addEventListener ('click', ()=>{
+    infoBoard.textContent = "HISTORY Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ullam explicabo cumque distinctio quia consectetur consequuntur delectus iure eius. Ea."
+})
 
 
+visionBtns.addEventListener ('click', ()=>{
+    infoBoard.textContent = "VISION Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ullam explicabo cumque distinctio quia consectetur consequuntur delectus iure eius. Ea."
+})
 
-function tabs (){
-    btns.forEach( btn => btn.addEventListener('click', ()=> {
-        documents.textContent = 3;
 
-        numA = parseInt(documents.textContent);
-
-        console.log(numA);
-    }))
-       
-}
-tabs();
+goalsBtns.addEventListener ('click', ()=>{
+    infoBoard.textContent = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ullam explicabo cumque distinctio quia consectetur consequuntur delectus iure eius. Ea."
+    infoBoard.textContent += "afafaGOALS Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus ullam explicabo cumque distinctio quia consectetur consequuntur delectus iure eius. Ea."
+})
