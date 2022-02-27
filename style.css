@@ -1,26 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 :root {
-    background-color: #E4E4E7;
+    background-color:#CCFBF1;
     font-family: 'Oswald', sans-serif;
     font-size: 1.5rem;
 }
 
 .container {
-    height: 50vh;
+    height: 100vh;
     display : flex;
 
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px  solid black;
 }
 
 .info-container {
     display: flex;
     justify-content: space-evenly;
     width: 100vw;
-    border: 1px solid black;
     width: 75%;
     padding: 25px;
     flex-wrap: wrap;
@@ -28,26 +26,27 @@
 
 
 .info-container > div > img {
-    width: 500px;
-    height: 350px;
+    width: 50vw;
+    max-height: 25vh;
     border-radius: 5%;
     
 }
 
 .description-container {
     text-align: center;
-    width: 75%;
+    border-radius: 5%;
+    width: 65%;
     padding: 25px;
-   border: 1px solid black;
    display: flex;
     flex-direction: column;
+    background-color:#FEF3C7;
 }
 
 
 
 .description-container > div > button{
-    font-size: 1.3rem;
-    width: 250px;
+    font-size: 1.3em;
+    max-width: 150px;
     
     
 }
